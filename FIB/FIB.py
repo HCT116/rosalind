@@ -1,7 +1,7 @@
 def wabbits(mos,litter,newborn,gestating,reproducing):
     reproducing += newborn#newborns mature to reproducing age
     newborn = gestating #babies are born into newborns
-    gestating = reproducing*litter #reproducing act makes fetusus
+    gestating = reproducing*litter #reproducing act makes fetuses
     mos -= 1
     if mos == 1:
         return reproducing + newborn
